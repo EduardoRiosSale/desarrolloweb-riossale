@@ -51,13 +51,13 @@ h1{
 
 .inicio{
     display:flex ;
-    flex-direction:column;
+    flex-direction:row;
     justify-content:space-around;
-    align-items:center;
     list-style: none;
 }
 .logo{
     display: flex;
+    flex-direction: row;
     height: 200px;
     filter: brightness(1.1);
     mix-blend-mode: multiply;
