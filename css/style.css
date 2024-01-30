@@ -49,7 +49,7 @@ h1{
 
 /*estilos de navegacion */
 
-.inicioo{
+.inicio{
     display:flex ;
     flex-direction:column;
     justify-content:space-around;
