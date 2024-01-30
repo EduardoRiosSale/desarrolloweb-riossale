@@ -25,7 +25,7 @@ h1{
 }
 
 .padre{
-    display: grid;
+    display: flex;
     flex-direction: row;
     justify-content:center;
     gap: 20px;
@@ -95,10 +95,10 @@ a:visited{
 }
 
 .contenedor{
-    height:90dvh;
+    height:50dvh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 25%);
+    grid-template-rows: repeat(3, 10%);
     gap: 1rem;
     margin: 2px 1px;
 }
