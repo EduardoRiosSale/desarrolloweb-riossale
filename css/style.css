@@ -184,9 +184,9 @@ button:hover span{
     .padre{
         height: 100%;
         width: 100%;
-        flex-direction:row;
+        margin: auto;
+        flex-direction: column;
         display:flex;
-        margin: 15px;
     }
 
     .contenedor , .contenedor .img-tres{
