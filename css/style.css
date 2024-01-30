@@ -58,7 +58,7 @@ h1{
     flex-direction:column;
     justify-content:space-around;
     align-items:center;
-    
+    list-style: none;
 }
 .logo{
     display: flex;
