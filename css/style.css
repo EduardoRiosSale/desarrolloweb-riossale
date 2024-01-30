@@ -29,14 +29,11 @@ h1{
     justify-content:center;
     gap: 20px;
     align-items: center;
-    
-    
 }
 
 .hijo, .hijo2{
     text-align:center;
     font-size: x-large;
-    
 }
 
 .madre, .qsomos{
@@ -45,7 +42,6 @@ h1{
     align-items:center;
     margin: 40px;
     justify-content: center;
-
 }
 
 
@@ -53,7 +49,7 @@ h1{
 
 /*estilos de navegacion */
 
-.inicio{
+.inicioo{
     display:flex ;
     flex-direction:column;
     justify-content:space-around;
@@ -73,8 +69,6 @@ div nav ul li{
     margin-right: 20px;
     font-size: 20px;
     font-style: italic;
-    
-
 }
 
 .barra a:link{
@@ -107,7 +101,6 @@ a:visited{
     grid-template-rows: repeat(3, 25%);
     gap: 1rem;
     margin: 2px 1px;
-    
 }
 
 
@@ -115,17 +108,13 @@ a:visited{
 
 footer{
     background-color: gray;
-    
-    
 }
 footer p{
     color: #60A8B0;
     text-transform:uppercase;
     height: auto;
-    
     width:max-content;
     background-size: cover;
-    
 }
 footer div ul li a{
     height: 35px;
@@ -137,7 +126,6 @@ footer div ul li a{
 
 /* boton */
 button{
-    
     border: 0;
     background-image: linear-gradient(150deg, #60A9B1,#808080,#FFFFFF,#000000);
     border-radius: 6px;
@@ -157,16 +145,12 @@ button span{
     color: white;
     padding: 10px 20px;
     transition: .3s;
-    
-
 }
 button:hover span{
     background: none;
-
 }
 button:active{
     transform: scale(0,9);
-
 }
 /* mq de tables */
 
@@ -174,11 +158,9 @@ button:active{
     .contenedor{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 31%);
-        
         }
     .contenedor .img-cinco{
         grid-column: span 2;
-        
     }
     .padre{
         height: 100%;
@@ -186,7 +168,6 @@ button:active{
         margin: auto;
         flex-direction: column;
         display:flex;
-        
     }
 }
 
@@ -199,12 +180,9 @@ button:active{
 
 
 @media screen and (min-width:1024px){
-
-    
     .contenedor{
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 45% 40% 60%;
-        
     }
 
     .padre{
@@ -213,8 +191,6 @@ button:active{
         flex-direction:row;
         display:flex;
         margin: 15px;
-        
-        
     }
 
     .contenedor , .contenedor .img-tres{
@@ -228,7 +204,6 @@ button:active{
     }
     .contenedor .img-cuatro{
         grid-column: span 1;
-
     }
 
 }
