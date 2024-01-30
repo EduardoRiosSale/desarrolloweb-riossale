@@ -149,9 +149,6 @@ button span{
 button:hover span{
     background: none;
 }
-button:active{
-    transform: scale(0,9);
-}
 /* mq de tables */
 
 @media screen and (min-width:600px){
