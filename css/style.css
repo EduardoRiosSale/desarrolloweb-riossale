@@ -177,6 +177,8 @@ button{
     transition: .3s;
     justify-content: space-around;
     position: relative;left: 40%;
+    align-items: center;
+    justify-items: center;
 }
 
 button span{
@@ -185,6 +187,8 @@ button span{
     color: white;
     padding: 10px 20px;
     transition: .3s;
+    align-items: center;
+    justify-items: center;
 }
 button:hover span{
     background: none;
@@ -223,10 +227,13 @@ button:hover span{
 
 @media screen and (min-width:1024px){
     .contenedor{
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 45% 40% 60%;
+        grid-template-columns: repeat(3, 300px);
+        grid-template-rows: 45% 40% 40%,
     }
-
+    .img-tres{
+        display: grid;
+    }
+    
     .padre{
         height: 100%;
         width: 100%;
@@ -239,7 +246,7 @@ button:hover span{
         grid-row: span 2;
     }
     .contenedor .img-cinco{
-        grid-column: span 1;
+        grid-column: span 2;
     }
     .contenedor .img-dos{
         grid-column: span 1;
