@@ -110,9 +110,9 @@ a:visited{
 /* estilos de "Adopta con nosotros */
 
 .contenedor div img{
-    width: auto;
-    height: auto;
-    object-fit: flex;
+    width: 100%;
+    height: 100%;
+    object-fit:flex;
     padding: 1px;
     margin: 1px;
     margin-top: 1px;
@@ -121,14 +121,19 @@ a:visited{
 }
 
 .contenedor{
-    height: 200px;
+    height:50dvh;
     display: grid;
-    grid-template-columns:auto;
-    grid-template-rows: repeat(5, 60%);
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 30%);
     gap: 1rem;
-    margin: 2px 1px 1px 1px 1px;
+    margin: 2px 1px 1px;
 }
-
+.img-tres{
+    display: none;
+}
+.img-cuatro{
+    display: none;
+}
 
 /* footer */
 
