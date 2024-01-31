@@ -36,18 +36,31 @@ h1{
     text-align:center;
 }
 
-.madre, .qsomos{
+.madre{
     display: flex;
     flex-direction:column;
-    align-items:center;
+    justify-content:left;
     margin: auto;
-    justify-content: center;
+    align-items: center;
+    
+}
+.qsomos{
+    display: flex;
+    flex-direction:column;
+    justify-content:left;
+    gap: 20px;
+    align-items: center;
 }
 
 
 
 
 /*estilos de navegacion */
+
+.inicio2{
+    align-items:center;
+    flex-direction: row;
+}
 
 .inicio{
     display:flex ;
@@ -69,6 +82,13 @@ h1{
     width: 100%;
     height: 100%;
     align-items: center;
+}
+.img2{
+    display: flex;
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    
 }
 
 div nav ul li{
@@ -118,6 +138,13 @@ footer{
     background-color: gray;
     width: auto;
     height: auto;
+}
+
+.fondo{
+    display: flex;
+    justify-content:left;
+    height: auto;
+    width: auto;
 }
 footer p{
     color: #60A8B0;
