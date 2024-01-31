@@ -178,7 +178,7 @@ button{
     transition: .3s;
     position:sticky;
     left: 40%;
-    margin: 5px;
+    margin: 15px;
 }
 
 
@@ -247,16 +247,16 @@ button:hover span{
     }
 
     .contenedor .contenedor .img-cuatro{
-        grid-row: span 3;
+        grid-row: span 2;
     }
     .contenedor .img-cinco{
-        grid-column: span 2;
+        grid-column: span 1;
     }
     .contenedor .img-dos{
         grid-row: span 1;
     }
-    .contenedor .img-cuatro{
-        grid-column: span 1;
+    .contenedor .img-tres{
+        grid-row: span 2;
     }
 
 }
