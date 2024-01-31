@@ -123,8 +123,9 @@ a:visited{
 .contenedor{
     height: 200px;
     display: grid;
-    grid-template-columns:auto;
-    grid-template-rows: repeat(5, 60%);
+    grid-template-columns:min-content;
+    grid-template-rows: repeat(1 2 3 4 5, 60%);
+    grid-row:auto;
     gap: 1rem;
     margin: 2px 1px 1px 1px 1px;
 }
