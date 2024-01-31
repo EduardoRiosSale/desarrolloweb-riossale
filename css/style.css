@@ -42,14 +42,14 @@ h1{
     justify-content:left;
     margin: auto;
     align-items: center;
-    
 }
 .qsomos{
     display: flex;
     flex-direction:column;
-    justify-content:left;
-    gap: 20px;
+    margin: auto;
     align-items: center;
+    height: auto;
+    width: auto;
 }
 
 /*estilos de navegacion */
