@@ -110,8 +110,8 @@ a:visited{
 /* estilos de "Adopta con nosotros */
 
 .contenedor div img{
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 75%;
     object-fit: flex;
     padding: 1px;
     margin: 1px;
@@ -121,10 +121,10 @@ a:visited{
 }
 
 .contenedor{
-    height:200px;
+    height: 200px;
     display: grid;
     grid-template-columns:auto;
-    grid-template-rows: repeat(3, 30%);
+    grid-template-rows: repeat(5, 60%);
     gap: 1rem;
     margin: 2px 1px 1px 1px 1px;
 }
