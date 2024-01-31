@@ -172,23 +172,15 @@ button{
     border-radius: 6px;
     color: white;
     display: flex;
-    font-size: 50px;
-    padding: 20px;
+    font-size: 20px;
+    padding: 10px;
     cursor: pointer;
     transition: .3s;
-    justify-content: center;
-    position: relative;left: 40%;
-    align-items: center;
-    justify-items: center;
+    position:sticky;
+    left: 40%;
 }
-.boton{
-    justify-content: center;
-    align-items: center;
-}
-.boton-mid{
-    justify-content: center;
-    align-items: center;
-}
+
+
 button span{
     background-color:#768C8E;
     border-radius: 9px;
