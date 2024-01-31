@@ -121,10 +121,10 @@ a:visited{
 }
 
 .contenedor{
-    height:70dvh;
+    height:200px;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 30%);
+    grid-template-columns:auto;
+    grid-template-rows: repeat(3, 30%);
     gap: 1rem;
     margin: 2px 1px 1px 1px 1px;
 }
