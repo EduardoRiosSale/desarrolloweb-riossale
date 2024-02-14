@@ -1,0 +1,43 @@
+@import "../utilidades/variables";
+
+/* footer */
+
+footer{
+    background-color: gray;
+    width: auto;
+    height: auto;
+    p{
+        color: $color-principal;
+        text-transform:uppercase;
+        height: auto;
+        width:auto;
+        background-size: cover;
+    }
+    div{
+        ul{
+            li{
+                a{
+                    height: 35px;
+                    width: max-content;
+                    display: flex;
+                    filter: brightness(1.1);
+                    mix-blend-mode: multiply;
+                }
+            }
+        }
+    }
+}
+
+section{
+    div{
+        display: flex;
+        justify-content:left;
+        width: 200px;
+        height: 100px;
+    }
+}
+
+
+
+
+

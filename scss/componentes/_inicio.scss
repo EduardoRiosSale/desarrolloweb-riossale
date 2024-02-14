@@ -1,0 +1,39 @@
+
+@import "../utilidades/variables";
+@import "./mixin";
+
+//barra de navegacion
+
+header{
+    @include flex;
+    img{
+        display:grid;
+        width: auto;
+        height: 150px;
+        filter: brightness(1.1);
+        mix-blend-mode: multiply;
+    }
+    div{
+        nav{
+            ul{
+                display:flex;
+                flex-direction:row;
+                justify-content:space-around;
+                gap: 1rem;
+                align-items: center;
+                list-style: none;
+            }
+        }
+    }
+}
+
+
+.barra a:link{
+    color: $color-principal;
+}
+
+
+a:visited{
+    color: $color-principal;
+    
+}

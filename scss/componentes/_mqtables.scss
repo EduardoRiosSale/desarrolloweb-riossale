@@ -1,0 +1,69 @@
+@import "./mixin";
+
+// media quaris
+
+@media screen and (min-width:600px){
+    .contenedor{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 31%);
+        }
+    .contenedor .img-cinco{
+        grid-column: span 2;
+    }
+    .padre{
+        height: 100%;
+        width: 100%;
+        margin: auto;
+        flex-direction: column;
+        display:flex;
+    }
+    footer{
+        background-color: gray;
+        width: auto;
+        height: auto;
+    }
+}
+
+.madre{
+    display: flex;
+    width: fit-content;
+}
+
+/* mq de desktop */
+
+
+@media screen and (min-width:1024px){
+    .contenedor{
+        grid-template-columns: repeat(3, 400px);
+        grid-template-rows: 45% 40% 40%,
+    }
+    .img-tres{
+        display: grid;
+    }
+    .img-cuatro{
+        display: flex;
+    }
+    
+    .padre{
+        text-align: left;
+        height: 100%;
+        width: 100%;
+        flex-direction:row;
+        display:flex;
+        margin: 15px;
+    }
+
+    .contenedor .contenedor .img-cuatro{
+        grid-row: span 2;
+    }
+    .contenedor .img-cinco{
+        grid-column: span 1;
+    }
+    .contenedor .img-dos{
+        grid-row: span 1;
+    }
+    .contenedor .img-tres{
+        grid-row: span 2;
+    }
+
+}
